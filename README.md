@@ -170,25 +170,31 @@ requirements.txt
 
 ## 📷 Screenshots
 
-Add screenshots here after uploading them.
+### Dashboard
 
-- Dashboard
-- Monthly Sales Trend
-- Prediction Module
-- Dataset Explorer
+<img width="1919" height="934" alt="dashboard" src="https://github.com/user-attachments/assets/f0c614f7-816b-4fd7-a9ad-bcdd8f9bae47" />
 
 ---
 
-## 🔮 Future Enhancements
+### Monthly Sales Trend
 
-- XGBoost Implementation
-- LSTM Time-Series Forecasting
-- Cloud Deployment
-- Real-Time Database Integration
-- Power BI Dashboard
-- Automated Report Generation
+<img width="745" height="399" alt="monthly_sales_trend" src="https://github.com/user-attachments/assets/74cca7b0-4849-4424-acf3-297be60a4d22" />
 
 ---
+
+### Prediction Module
+
+<img width="1130" height="552" alt="prediction_module" src="https://github.com/user-attachments/assets/99b5d136-6824-4451-9c90-d80b40566933" />
+
+---
+
+### Dataset Explorer
+
+<img width="1460" height="398" alt="dataset_explorer" src="https://github.com/user-attachments/assets/7987e738-6581-46f6-80c6-d0276ac456f1" />
+
+
+---
+
 
 ## 👨‍💻 Author
 
