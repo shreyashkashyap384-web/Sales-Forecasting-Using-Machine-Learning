@@ -38,11 +38,11 @@ def load_model():
 
 @st.cache_resource
 def load_cols():
-    return joblib.load("models/feature_columns.pkl")
+    return joblib.load("models/feature_cols.pkl")
 
 df=load_data()
 model=load_model()
-feature_columns=load_cols()
+feature_cols=load_cols()
 
 st.title("📈 Sales Forecasting Using ML with Python")
 st.caption("Shreyash Kashyap | NAVIOTECH SOLUTIONS PVT. LTD.")
@@ -69,7 +69,7 @@ qty=st.sidebar.number_input("Quantity",1,20,2)
 discount_percent = st.sidebar.slider("Discount (%)", 0, 100, 0)
 
 # Convert percentage to decimal for prediction
-disc = discount_percent / 100
+discount = discount_percent / 100
 predict=st.sidebar.button("Predict")
 
 left,right=st.columns(2)
@@ -136,7 +136,7 @@ if predict:
     sample=tmp.iloc[-1]
     if "Sales" in sample: sample=sample.drop("Sales")
     if "Profit" in sample: sample=sample.drop("Profit")
-    sample=sample[feature_columns]
+    sample=sample[feature_cols]
 
     pred=model.predict(pd.DataFrame([sample]))[0]
 
